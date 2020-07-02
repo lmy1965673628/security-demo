@@ -23,8 +23,6 @@ public class MyUserDetailsService implements UserDetailsService {
         }
 
         user.setAuthorities(AuthorityUtils.commaSeparatedStringToAuthorityList(user.getRoles()));
-
-
         return user;
     }
 }

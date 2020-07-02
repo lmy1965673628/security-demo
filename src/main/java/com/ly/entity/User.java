@@ -86,7 +86,7 @@ public class User implements UserDetails {
     }
     @Override
     public boolean equals(Object obj) {
-        return obj instanceof User?this.username.equals(((User)obj).username):false;
+        return obj instanceof User ?this.username.equals(((User)obj).username):false;
     }
 
     @Override
